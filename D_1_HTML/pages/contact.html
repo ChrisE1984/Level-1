@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+</head>
+<body>
+    <header>
+        <h1>Order from Cluck Norris</h1>
+        <a href="../index.html">Home</a>
+        <a href="contact.html">Contact</a>
+    </header>
+    <main>
+        <section>
+            <form aria-label="Order form">
+                <label for="name"> Your Name </label>
+                <input type="text" id="name" name="name">
+                <label for="email"> Your Email </label>
+                <input type="email" id="email" name="email">
+                <label for="quantity"> Quantity </label>
+                <input type="number" id="quantity" name="quantity" min="1" max="20">
+                <fieldset>
+                    <legend> Heat Level</legend>
+                    <input type="radio" id="mild" name="heat" value="mild">
+                    <label for="mild">Mild</label>
+                    <input type="radio" id="hot" name="heat" value="hot">
+                    <label for="hot">Hot</label>
+                    <input type="radio" id="nashville" name="heat" value="nashville">
+                    <label for="nashville">Nashville</label>
+                </fieldset>
+                <label for="pickup"> Pickup Time </label>
+                <select id="pickup" name="pickup">
+                    <option value="11">11:00</option>
+                    <option value="12">12:00</option>
+                    <option value="1">1:00</option>
+                </select>
+
+                <label for="notes"> Special Instructions</label>
+                <textarea id="notes" name="notes" rows="4" placeholder="Enter text here"> </textarea>
+                <input type="checkbox" id="sauce" name="sauce">
+                <label for="sauce"> Extra Sauce</label>
+                <input type="checkbox" id="cheese" name="cheese">
+                <label for="cheese"> Extra Cheese</label>
+                <input type="checkbox" id="horseradish" name="horseradish">
+                <label for="horseradish"> Lotta Horseradish</label>
+                <input type="checkbox" id="hot-check" name="hot">
+                <label for="hot-check"> Lotta Hot</label>
+
+                <button type="submit">Place Order</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

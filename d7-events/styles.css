@@ -1,0 +1,15 @@
+.open{
+    color: green;
+    font-weight: bold;
+}
+
+.done{
+    color: gray;
+    font-style: italic;
+}
+
+.remove-button {
+    margin-left: 8px;
+    border: 1px solid;
+    padding: 0 6px;
+}
